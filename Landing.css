@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    color: #ededed;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color :blue;
+}
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url(img/background.jpg); 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content{
+    max-width: 600px ;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home-content h3 span{
+    color :rgba(0, 81, 255, 0.774);
+}
+.home-content h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.home-content p{
+    font-size: 20px;
+}
+.icons{
+    position: fixed;
+    bottom: 0px;
+}
+.icons a{
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    bottom: 0px;
+}
+
+.btn-box{
+    margin-top: 20px ;
+    display: inline-block; 
+    background-color: rgb(0, 26, 255); 
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.btn-box:hover{
+    background-color: white ; 
+    color: #000;
+}
